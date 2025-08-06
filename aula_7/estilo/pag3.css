@@ -1,0 +1,27 @@
+div.caixa{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    font-size: 16pt;
+}
+
+#cx1{
+    float: left;
+    background-color: violet;
+}
+
+#cx2{
+    float:left;
+    background-color: orangered;
+}
+
+#cx3{
+    float: left;
+    background-color: blanchedalmond;
+}
+
+#cx4{
+    float: left;
+    background-color: gold;
+}
+

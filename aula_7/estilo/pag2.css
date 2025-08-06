@@ -1,0 +1,32 @@
+#cx1{
+     background-color: aquamarine;
+     position: fixed;
+     top:50px;
+     left:5px;
+}
+
+#cx2{
+    background-color: crimson;
+    position:relative;
+    top:150px;
+    left:350px;
+}
+
+#cx3{
+    background-color: gold;
+    position:absolute;
+    top:50px;
+    right:450px;
+}
+
+#cx4{
+    background-color: silver;
+    position: relative;
+    top:200px;
+    left:850px;
+}
+
+div.caixa{
+    width: 200px;
+    height: 250px;
+}
