@@ -1,0 +1,178 @@
+#container{
+    background-image: url(/img/flor.jpg);
+    /*background-repeat: no-repeat;, se eu não quisesse que a imagem ficasse repetindo no fundo*/
+    margin:0 auto; 
+    padding: 2em; /*o 'em' se ajusta ao tamanho da tela*/
+    align-items: center;
+}
+
+#cab{
+    margin:0 auto;
+    background-color: lightskyblue;
+    color:black;
+    padding: 1em;
+}
+
+#menu{
+    background-color:aqua;
+    padding:1em;
+    font-size:16pt;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+nav a{
+    display:block;
+    width: 80%;
+    height: 80%;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#main{
+    background-color: ghostwhite;
+    border:dimgray 1em solid;
+    border-radius: 10px;
+    padding: 1em;
+    overflow: visible;
+    text-align: center;
+    width: 70%;
+    position:relative;
+    left:25%;
+}
+
+#rod{
+    margin:0 auto;
+    padding: 2em; 
+    font-size:12pt;
+    color:black;
+    background-color: cornflowerblue;
+}
+
+header img{ /*quando temos um img dentro de um header*/
+    width: 10%;
+    height: 10%;
+    display:inline-block;
+}
+
+header h1{
+    display:inline;
+    font-size:40vw;
+    font-family: 'fofinho';
+}
+
+div.box{
+    width: 100px;
+    height: 300px;
+    background-color: bisque;
+    color:black;
+    font-size:14pt;
+    display:inline-block;
+    margin:1px;
+    padding: 5px;
+    border:2px;
+}
+
+#b1{
+    overflow: visible;
+}
+
+#b2{
+    overflow: hidden;
+}
+
+#b3{
+    overflow: scroll;
+}
+
+#b4{
+    overflow: auto;
+}
+
+#b5{
+    overflow: inherit;
+}
+
+#d1{
+    overflow:hidden;
+    box-sizing: content-box;
+}
+
+#d2{
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+div.borda{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    display:inline-block;
+    margin:2%;
+}
+
+#d3{
+    border-radius: 10px;
+}
+
+#d4{
+    border-radius: 25px;
+}
+
+#d5{
+    border-radius: 50px;
+}
+
+#col{
+    text-align: justify;
+}
+
+p.config{
+    columns: 100px 3;
+    column-gap: 40px;
+    column-rule: 3px dotted deepskyblue;
+}
+
+#s1{
+    border-radius: 10px 50px 50px 10px;
+    box-shadow: 20px 20px #000;
+}
+
+#s2{
+    border-radius: 25px;
+    box-shadow: 10px 20px 20px dimgray;
+}
+
+figure.polaroid{
+    width: 305px;
+    height:200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#polaroid{
+    width: 100%;
+}
+
+figcaption{
+    padding:10px ;
+    text-align: center;
+}
+
+h1.texto{
+    font-family:'bolinhas';
+    font-size: 60pt;
+    color:ghostwhite;
+    text-shadow: 1px 1px 1px  #000,
+                  0   0  5px  #812222,
+                  0   0  15px #c71515,
+                  0   0  25px #e30909;
+   
+}

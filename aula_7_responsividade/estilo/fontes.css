@@ -1,0 +1,12 @@
+
+
+@font-face {
+    font-family: 'bolinhas';
+    src:url(/font/MozillaHeadline-VariableFont_wdth\,wght.ttf)
+    format('truetype');
+}
+
+@font-face{
+    font-family:'fofinho';
+    src:url('/font/Mozilla_Headline/MozillaHeadline-VariableFont_wdth\,wght.ttf');
+}
