@@ -1,0 +1,48 @@
+/*teste com @media screen*/
+@media (400px <= width <= 800px){
+
+    #container{
+        margin: 2em;
+        padding: 5em;
+        background-image: url(/img/gatinho.png);
+        background-repeat:repeat; 
+        text-align:center;
+        align-items:center;
+    }
+
+    #menu{
+        padding: 1em;
+        background-color: darkseagreen;
+        width: 90%;
+        float:none;
+        text-align:center;
+        width: 90%;
+    }
+
+    #cab{
+        width: 90%;
+    }
+    nav a{
+        display:inline-block;
+        padding: 0.5em;
+        margin: 0 auto;
+        text-decoration: none;
+        color:black;
+    }
+
+    header img{ /*quando temos um img dentro de um header*/
+        width: 20%;
+        height: 20%;
+    }
+    #main{
+        border:dimgray 0.5em solid;
+        padding: 0.5em;
+        width: 90%;
+        margin: 0 auto;
+        left:0;
+    }
+
+    header h1{
+        font-size:10vw;
+    }
+}
